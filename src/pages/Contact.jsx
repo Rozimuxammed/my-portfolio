@@ -54,7 +54,7 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-md mx-auto mt-40 bg-white p-6 rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
+      <h2 className="text-2xl font-bold mb-4 text-black">Contact Me</h2>
       {isSubmitted ? (
         <p className="text-green-500">Xabar muvaffaqiyatli yuborildi! ✅</p>
       ) : (
@@ -67,7 +67,7 @@ const ContactForm = () => {
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded text-slate-900"
             />
           </div>
 
@@ -82,7 +82,7 @@ const ContactForm = () => {
               placeholder="+998 XX XXX XX XX"
               inputMode="numeric"
               pattern="\+998 [0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}"
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded text-slate-900"
             />
           </div>
 
@@ -93,11 +93,11 @@ const ContactForm = () => {
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               required
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded text-slate-900"
             />
           </div>
 
-          <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
+          <button type="submit" className="w-full bg-blue-500 text-white px-4 py-2 rounded">
             Yuborish
           </button>
         </form>

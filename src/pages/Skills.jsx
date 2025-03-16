@@ -47,7 +47,6 @@ function Skills() {
                             variants={fadeInUp}
                             custom={index + 1}
                         >
-                            {/* **Ikonka va nom** */}
                             <div className="flex items-center gap-3">
                                 <div className={`text-3xl p-2 rounded-md shadow-sm bg-gradient-to-r ${skill.color}`}>
                                     <span className="text-gray-800 dark:text-white">{skill.icon}</span>
