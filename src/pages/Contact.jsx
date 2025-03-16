@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-const TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";
+const TELEGRAM_BOT_TOKEN = "7631051192:AAFOIQ8PPDCWTBTEkd-WOdFthvcJwmoewcE";
+const TELEGRAM_CHAT_ID = "1659382798";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
