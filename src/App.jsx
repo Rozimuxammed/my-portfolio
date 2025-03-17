@@ -23,7 +23,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen w-full transition-colors duration-300 bg-white text-black dark:bg-gray-900 dark:text-white">
+    <div className="w-screen min-h-screen flex items-center justify-center transition-colors duration-300 bg-white text-black dark:bg-gray-900 dark:text-white">
       <Navbar toggleDarkMode={() => setDarkMode((prev) => !prev)} />
       <Routes>
         <Route path="/" element={<Home />} />

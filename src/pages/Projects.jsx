@@ -74,11 +74,11 @@ function Projects() {
   }, [darkMode]);
 
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 py-16 px-6 transition duration-300">
+    <section className="w-screen bg-gray-100 dark:bg-gray-900 py-16 px-6 transition duration-300">
       <div className="max-w-6xl mx-auto">
         <div className=" mb-8">
           <motion.h2
-            className="text-4xl font-bold text-gray-900 dark:text-white text-center"
+            className="mt-10 text-4xl font-bold text-gray-900 dark:text-white text-center"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

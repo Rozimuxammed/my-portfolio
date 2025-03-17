@@ -25,11 +25,11 @@ const fadeInUp = {
 
 function Skills() {
     return (
-        <section className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+        <section className="w-screen min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
             <div className="max-w-4xl mx-auto">
                 {/* **Sarlavha** */}
                 <motion.h2
-                    className="text-3xl font-extrabold text-gray-900 dark:text-white text-center mb-8 tracking-wide"
+                    className="mt-10 text-3xl font-extrabold text-gray-900 dark:text-white text-center mb-8 tracking-wide"
                     initial="hidden"
                     animate="visible"
                     variants={fadeInUp}

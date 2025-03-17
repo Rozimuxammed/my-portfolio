@@ -35,7 +35,7 @@ function Home() {
     ];
 
     return (
-        <div className="flex flex-col items-center justify-center h-auto mt-28 p-4 text-gray-900 dark:text-white">
+        <div className="flex flex-col items-center justify-center h-auto p-4 text-gray-900 dark:text-white">
             <img
                 className="object-cover rounded-3xl cursor-pointer transition-transform duration-300 hover:scale-105
                 w-40 h-40 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80"

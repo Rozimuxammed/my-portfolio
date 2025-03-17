@@ -35,10 +35,10 @@ const fadeInUp = {
 
 function AboutMe() {
     return (
-        <section className="bg-gray-100 dark:bg-gray-900 py-12 px-6">
+        <section className="w-screen bg-gray-100 dark:bg-gray-900 py-12 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <motion.h2
-                    className="text-3xl font-bold text-gray-900 dark:text-white mb-8"
+                    className="mt-10 text-3xl font-bold text-gray-900 dark:text-white mb-8"
                     initial="hidden"
                     animate="visible"
                     variants={fadeInUp}
